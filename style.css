@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+}
+header div{
+    margin: auto 200px;
+    background-color:white;
+    height: 80px;   
+    position: relative;
+}
+
+#topLeft{
+    /* float:left; */
+    position: absolute;
+    /* display:inline-block; */
+    margin-left:0px;
+    
+}
+
+#topLeft h1 {
+    position:absolute;
+    display:inline-block;
+    margin-top: 0px;
+    font-family: 'Satisfy', cursive;
+    font-size:26px;
+}
+#topLeft h4 {
+    position: relative;
+    display:inline-block;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-weight: 100;    
+}
+
+#topRight {
+    position: absolute;
+    bottom: -20px;
+    right: -200px;
+}
+#bottomdiv {
+    background-repeat: repeat-x;
+    background-image: url(hr-img.png);
+    background-size: 15px;
+}
+
+
