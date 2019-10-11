@@ -20,7 +20,7 @@ header div{
     position:absolute;
     display:inline-block;
     margin-top: 0px;
-    font-family: 'Satisfy', cursive;
+font-family: 'Yellowtail', cursive;
     font-size:26px;
 }
 #topLeft h4 {
@@ -44,3 +44,35 @@ header div{
 }
 
 
+#mainTopLeft {
+    /* float:left; */
+    position: absolute;
+    /* display:inline-block; */
+    margin-left:0px;
+    margin-right: 200px;
+}
+
+#mainTopLeft h1 {
+    position:absolute;
+    display:inline-block;
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size:26px;
+}
+
+#mainTopLeft h4 {
+    position: relative;
+    display:inline-block;
+    margin-top:35px;
+    font-size: 12px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-weight: 100;
+
+}
+
+#mainTopRight {
+    /* position: absolute; */
+    bottom: -20px;
+    background-color: red;
+    padding:0;
+}    
